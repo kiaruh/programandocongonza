@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innova Pong</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Innova Pong</h1>
+        <p>Innova Pong es un torneo de ping pong. Aqui podras encontrar toda la informacion del torneo, participantes, partidos, noticias, fotos, etc.</p>
+    </header>
+
+    <section>
+        <h3>agregar jugador</h3>
+
+        <form>
+            <p>Ingrese el nombre del jugador <input type="text" id="nombre"></p>
+            <p>Ingrese el apellido del jugador <input type="text" id="apellido"></p>
+            <input type="button" class="boton_agregar_jugador" value="Agregar jugador" onclick="sumarParticipante()">
+        </form>
+
+        <button class="boton_mostrar_participantes">mostrar jugadores</button>
+
+        <section id="lista_participantes">
+            <h3>Jugar Partido</h3>
+            
+        </section>
+    </section>
+       
+</body>
+</html>
